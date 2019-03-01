@@ -2,15 +2,20 @@
   "name": "new",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://leecockcroft.github.io/react-todolist/",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "gh-pages": "^2.0.1",
+    "package.json": "^2.0.1",
     "react": "16.5.2",
     "react-dom": "16.5.2",
     "react-scripts": "2.0.3"
   },
   "devDependencies": {},
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

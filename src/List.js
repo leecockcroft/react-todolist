@@ -16,21 +16,21 @@ class List extends Component {
     //webmasters select menu
 
     this.options = [
-      { name: "Assign Webmaster" },
-      { name: "Adam Lopez" },
-      { name: "Carlos Fonseca" },
-      { name: "Dean Richards" },
-      { name: "Fran Navarro" },
-      { name: "Adam Lopez" },
-      { name: "George Barbu" },
-      { name: "Joseph Victory" },
-      { name: "Kevin A.Morillo" },
-      { name: "Lee Cockcroft" },
-      { name: "Lee Fendley" },
-      { name: "Marian Stroiu" },
-      { name: "Robin Whitting" },
-      { name: "Ross Fleming" },
-      { name: "Wojchiech Gefert" }
+      { name: "Assign" },
+      { name: "Adam " },
+      { name: "Carlos " },
+      { name: "Dean " },
+      { name: "Fran " },
+      { name: "Adam " },
+      { name: "George " },
+      { name: "Joseph " },
+      { name: "Kevin" },
+      { name: "Lee " },
+      { name: "Liam" },
+      { name: "Marian " },
+      { name: "Robin " },
+      { name: "Ross " },
+      { name: "Wojchiech" }
     ];
   }
 
